@@ -17,9 +17,9 @@ To add a little realism, the "it's snowing" event is added and takes place befor
 The modelization 2D works on the same principle, i.e. calculate the differences of height between columns. This time, the mountain consists of a square area of 50 columns per side, so it looks more like a sandpile : the difference of height is calculated between a column and its neighbors all around. Therefore, the avalanche can spread on different directions and in different proportions. 
 
 
-In *modelisation2D.py*, we perform the relaxations of the mountain and get a file gathering the height of every column of snow of the mountain. *slopes.py* gives us a vizualization of the state of the mountain : the heights are gathered by color which can give an idea of the distribution of snow on the mountain.
+In _modelisation2D.py_, we perform the relaxations of the mountain and get a file gathering the height of every column of snow of the mountain. _slopes.py_ gives us a vizualization of the state of the mountain : the heights are gathered by color which can give an idea of the distribution of snow on the mountain.
 
-Finally, *plot.py* gives us plots of the total slope stability on the maximum slope, the probability density of occurrence of an avalanche according to its size
+Finally, _plot.py_ gives us plots of the total slope stability on the maximum slope, the probability density of occurrence of an avalanche according to its size
 and a log-log diagram of the size distribution of avalanches.
 
 
