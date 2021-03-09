@@ -6,8 +6,8 @@ As part of the modelisation, I chose to use the Bak-Tang-Wiesenfeld sandpile mod
 
 ## Modelization 1D
 
-For a first visualization, I implemented a 1D version of the model. The mountain consists of 5 "columns" of snow, each column having its own height 
-(which can range from 0 to 6 at initialization). It is considered that the peak of the mountain is the column on the left, and that the valley is on 
-the right of the mountain. The principle is to calculate the difference in snow between two columns. If this difference is strictly greater than 2, 
-the leftmost column collapses on its right neighbor with 2 piles of snow. To add a little realism, the "it's snowing" event is added and takes place 
-before each mountain relaxation. 
+For a first visualization, I implemented a 1D version of the model.
+
+The mountain consists of 5 "columns" of snow, each column having its own height (which can range from 0 to 6 at initialization). It is considered that the peak of the mountain is the column on the left, and that the valley is on the right of the mountain.\
+The principle is to calculate the difference in snow between two columns. If this difference is strictly greater than 2, the leftmost column collapses on its right neighbor with 2 piles of snow.\
+To add a little realism, the "it's snowing" event is added and takes place before each mountain relaxation. 
